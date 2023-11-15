@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+div{
+    border: 1px solid black;
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
+
+#title{
+    height: 80px;
+    text-align: center;
+    padding: 3%;
+    color: #E53170;
+}
+
+div > p{
+    padding: 3%;
+    text-align: center;
+}
