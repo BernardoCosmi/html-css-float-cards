@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Fredoka', sans-serif;
+}
+
 /* Temporary Border */
 div{
     border: 1px solid black;
@@ -20,6 +24,7 @@ div{
     height: 80px;
     text-align: center;
     padding: 3%;
+    font-weight: 700;
     color: #E53170;
 }
 
@@ -37,14 +42,33 @@ div>p{
     margin:2em calc(15%/6) 0;
     box-shadow: 0 0 10px black;
     background-position: left;
-    background-color: aqua;
+    background-color: #0F0E17;
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-.pro_pic{
-    margin-left: 0;
+.name{
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1em 0.5em 0 7.2em;
 }
+.qualification{
+    color: white;
+    display: block;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 0.5em 0.5em 0 8.5em;
+}
+
+.email{
+    color: #00C0F3;
+    display: block;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0.5em 0.5em 0 8.5em;
+}
+
+/* Profile pictures */
 .marco{
     background-image: url(../img/male1.png);
 }
