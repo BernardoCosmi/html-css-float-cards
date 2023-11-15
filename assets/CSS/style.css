@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 
+/* Temporary Border */
 div{
     border: 1px solid black;
 }
+
+/* General container */
 .container{
     margin: auto;
     width: 70%;
 }
 
+/* Title and article */
 #title{
     height: 80px;
     text-align: center;
@@ -19,7 +23,43 @@ div{
     color: #E53170;
 }
 
-div > p{
+div>p{
     padding: 3%;
     text-align: center;
+}
+
+/* Floating Cards */
+
+.card{
+    width: calc(85%/3);
+    height: 120px;
+    float: left;
+    margin:2em calc(15%/6) 0;
+    box-shadow: 0 0 10px black;
+    background-position: left;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pro_pic{
+    margin-left: 0;
+}
+.marco{
+    background-image: url(../img/male1.png);
+}
+.laura{
+    background-image: url(../img/female1.png);
+}
+.giorgio{
+    background-image: url(../img/male2.png);
+}
+.marta{
+    background-image: url(../img/female2.png);
+}
+.roberto{
+    background-image: url(../img/male3.png);
+}
+.daniela{
+    background-image: url(../img/female3.png);
 }
